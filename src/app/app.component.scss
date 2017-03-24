@@ -1,0 +1,45 @@
+app-left,
+app-middle,
+app-right {
+  border: 3px solid lightgrey;
+  margin: 20px;
+  padding: 30px;
+  display: inline-block;
+  width: 120px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    outline: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+  }
+}
+
+app-left {
+  ul {
+    li {
+      background-color: darkorange;
+    }
+  }
+}
+
+app-middle {
+  ul {
+    li {
+      background-color: mediumseagreen;
+    }
+  }
+}
+
+app-right {
+  ul {
+    li {
+      background-color: mediumvioletred;
+    }
+  }
+}
