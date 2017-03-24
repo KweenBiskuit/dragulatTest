@@ -8,11 +8,11 @@ app-right {
   width: 120px;
 }
 
-ul {
+div.container {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  li {
+  div {
     outline: 1px solid grey;
     margin: 10px;
     padding: 10px;
@@ -21,24 +21,24 @@ ul {
 }
 
 app-left {
-  ul {
-    li {
+  .container {
+    div {
       background-color: darkorange;
     }
   }
 }
 
 app-middle {
-  ul {
-    li {
+  .container {
+    div {
       background-color: mediumseagreen;
     }
   }
 }
 
 app-right {
-  ul {
-    li {
+  .container {
+    div {
       background-color: mediumvioletred;
     }
   }

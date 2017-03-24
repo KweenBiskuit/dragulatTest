@@ -1,8 +1,9 @@
 MIDDLE
-<ul>
-  <li>item6</li>
-  <li>item7</li>
-  <li>item8</li>
-  <li>item9</li>
-  <li>item10</li>
-</ul>
+<!--<div class="container" [dragula]='"first-bag"' *ngFor='let item of items'>
+  <div>{{item}}</div>
+</div>-->
+
+
+<div class="container" [dragula]='"first-bag"' [dragulaModel]='items'>
+  <div *ngFor="let item of items">{{item}}</div>
+</div>
